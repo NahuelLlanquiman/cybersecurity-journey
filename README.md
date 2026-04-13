@@ -11,12 +11,12 @@ Mentor: CIPHER — Senior Cybersecurity Mentor & Career Coach.
 ### Estado actual
 - **Fase:** 1
 - **Bloque activo:** A — Redes
-- **Tema en curso:** Modelo OSI
-- **Última sesión:** 2026-04-10
-- **Horas estimadas acumuladas:** 0
+- **Tema en curso:** Modelo OSI Pila TCP/IP y diferencias practicas con OSI
+- **Última sesión:** 2026-04-13
+- **Horas estimadas acumuladas:** 4
 
 ### Diagnóstico inicial (onboarding)
-- **Fortalezas detectadas:** Intuición conceptual básica sobre procesos/servicios Linux. Experiencia previa con GitHub y SSH (uso operativo). Mentalidad honesta sobre brechas — sin sobreestimación.
+- **Fortalezas detectadas:** Intuición conceptual básica sobre procesos/servicios Linux. Experiencia previa con GitHub y SSH (uso operativo y basico). Instalacion de Debian en maquina personal y principal del dia a dia. Mentalidad honesta sobre brechas — sin sobreestimación.
 - **Brechas críticas identificadas:** Redes (sin base técnica de protocolos, puertos, SSH a nivel de red). Scripting (sin experiencia práctica en Python ni Bash). Vocabulario técnico de seguridad ausente.
 - **Posicionamiento inicial en roadmap:** Fase 1, Bloque A
 
@@ -42,7 +42,7 @@ Mentor: CIPHER — Senior Cybersecurity Mentor & Career Coach.
 
 ### Próximo objetivo
 Pila TCP/IP: diferencias con OSI, handshake de 3 vias en profundidad, y analisis de trafico TCP real con Wireshark
-Completar el estudio del Modelo OSI: las 7 capas, sus funciones y PDUs. Sesión práctica con Wireshark para observar tráfico real capa por capa.
+
 
 ### Notas y brechas detectadas
 - Entrada honesta al programa sin conocimiento previo de redes ni scripting.
