@@ -21,9 +21,9 @@ Mentor: CIPHER — Senior Cybersecurity Mentor & Career Coach.
 - **Posicionamiento inicial en roadmap:** Fase 1, Bloque A
 
 ### Temas completados con validación
-| Fase | Bloque | Tema | Tipo de validación | Evidencia |
-|------|--------|------|--------------------|-----------|
-| —    | —      | —    | —                  | —         |
+| Fase | Bloque | Tema                           | Tipo de validación                                                 |  Evidencia                       |
+|------|--------|--------------------------------|--------------------------------------------------------------------|----------------------------------|
+| F1   | A      |Modelo OSI - Practica wire shark|Captura DNS en vivo + identidicacion de capas OSI en paquetes reales|fase-1-fundamentos/redes/README.MD|
 
 ### Proyectos entregados
 | Proyecto | Fase | Estado | Link |
@@ -41,6 +41,7 @@ Mentor: CIPHER — Senior Cybersecurity Mentor & Career Coach.
 | 50 ejercicios de subnetting | F1 | Sin iniciar |
 
 ### Próximo objetivo
+Pila TCP/IP: diferencias con OSI, handshake de 3 vias en profundidad, y analisis de trafico TCP real con Wireshark
 Completar el estudio del Modelo OSI: las 7 capas, sus funciones y PDUs. Sesión práctica con Wireshark para observar tráfico real capa por capa.
 
 ### Notas y brechas detectadas
