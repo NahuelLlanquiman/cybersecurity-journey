@@ -3,6 +3,7 @@
 ## Modelo OSI
 
 ### Las 7 capas
+
 Capa 7 Aplicacion: Se generan las solicitudes HTTP y es donde el DNS (domain name system) traduce el nombre del dominio a direcciones IP (PDU: datos) (PDU: protocol data unit)
 
 Capa 6 Presentacion: Es donde se cifran los datos mediante TLS (transport layer security)(PDU: datos)
@@ -18,6 +19,7 @@ Capa 2 Enlace: Aqui es donde se garantiza la transmision, libre de errores, entr
 Capa 1 Fisica: Se encarga de la transmision a traves bits, senales electricas/opticas(PDU: bits)
 
 ### Encapsulación y desencapsulación
+
 Son los procesos donde los datos viajan a traves de las capas.
 
 Encapsulamiento: Este es el proceso donde se envia la informacion, los datos bajan de la capa de aplicacion a la fisica. aqui es donde cada capa agrega un header con la informacion de control.
@@ -25,6 +27,7 @@ Encapsulamiento: Este es el proceso donde se envia la informacion, los datos baj
 Desencapsulacion: Es el proceso inverso y es cuando se recibe esta informacion, los datos entran a traves de la capa fisica y empiezan a subir hasta la aplicacion. y tambien es donde cada capa lee el header y lo retira.
 
 ### Términos clave
+
 DNS (domain name system): es donde se traduce el nombre del dominio  a direccion ip.
 
 HTTP: protocolo que define como los navegadores piden los datos (GET), donde se envian (POST), donde se actualizan (PUT) y de eliminan (DELETE).
@@ -43,6 +46,7 @@ ARP (address resolution protocol): su funcion es detectar la direccion MAC cuand
 PDU (protocol data unit): es el nombre que reciben los datos en cada capa.
 
 ### Vectores de ataque por capa
+
 ARP Spoofing: ocurre en la capa 2, que consiste en enviar mensajes ARP falsos a la red local , osea el pc pregunta quien tiene tal ip, y el router responde con la mac, aqui es donde un atacante dice "esa ip soy yo", logrando que el trafico pase a traves de el antes de mi router.
 
 DNS Poisoning: ocurre en la capa 7 y es donde se introducen registros falsos en la memoria de un servidor DNS, asi cuando se intenta ingresar a una pagina web legitima, sea dirigido a una direccion IP controlada por el atacante.
@@ -50,12 +54,19 @@ DNS Poisoning: ocurre en la capa 7 y es donde se introducen registros falsos en 
 Basicamente el ARP Spoofing engana al hardware local para robar datos del transito y el segundo engana al sistema de nombres de los dominios en internet, asi para suplantar identidades de sitios web.
 
 ### Flujo real: ¿qué pasa cuando abro https://github.com?
+
 Capa 7(aplicacion): antes de que exista cualquier solicitud HTTP, el sistema debe resolver https://github.com auna IP. Este paso ocurre aqui y es cronologicamente el primero para luego el navegador geneta una solicitud HTTP GET 
+
 Capa 6(presentacion): como es HTTPS aqui ocurre el cifrado de los datos mediante TLS.
+
 Capa 5(sesion): se establece y se mantiene la conexion segura o puerto logico entre el pc y el servidor de github.
+
 Capa 4(transporte): los datos se segmentan y se elige el protocolo TCP.
+
 Capa 3(red): Se anaden las direcciones IP de origen (pc) y destino (github).
 el protocolo IP elige que ruta seguir.
+
 Capa 2(enlace de datos): El paquete llega a la tarjeta de red, anadiendo la direccion MAC del pc y del router.
+
 Capa 1(fisica): aqui es donde la trama se transforma en bits.
 
