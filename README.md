@@ -11,9 +11,9 @@ Mentor: CIPHER — Senior Cybersecurity Mentor & Career Coach.
 ### Estado actual
 - **Fase:** 1
 - **Bloque activo:** A — Redes
-- **Tema en curso:** Modelo OSI Pila TCP/IP y diferencias practicas con OSI
-- **Última sesión:** 2026-04-13
-- **Horas estimadas acumuladas:** 4
+- **Tema en curso:** Protocolos esenciales — UDP y DNS
+- **Última sesión:** 2026-04-14
+- **Horas estimadas acumuladas:** 7
 
 ### Diagnóstico inicial (onboarding)
 - **Fortalezas detectadas:** Intuición conceptual básica sobre procesos/servicios Linux. Experiencia previa con GitHub y SSH (uso operativo y basico). Instalacion de Debian en maquina personal y principal del dia a dia. Mentalidad honesta sobre brechas — sin sobreestimación.
@@ -21,9 +21,10 @@ Mentor: CIPHER — Senior Cybersecurity Mentor & Career Coach.
 - **Posicionamiento inicial en roadmap:** Fase 1, Bloque A
 
 ### Temas completados con validación
-| Fase | Bloque | Tema                           | Tipo de validación                                                 |  Evidencia                       |
-|------|--------|--------------------------------|--------------------------------------------------------------------|----------------------------------|
-| F1   | A      |Modelo OSI - Practica wire shark|Captura DNS en vivo + identidicacion de capas OSI en paquetes reales|fase-1-fundamentos/redes/README.MD|
+| Fase | Bloque | Tema                              | Tipo de validación                                                   | Evidencia                           |
+| ---- | ------ | --------------------------------- | -------------------------------------------------------------------- | ----------------------------------- |
+| F1   | A      | Modelo OSI - Practica wire shark  | Captura DNS en vivo + identidicacion de capas OSI en paquetes reales | fase-1-fundamentos/redes/modelo-OSI |
+| F1   | A      | Pila TCP/IP + diferencias con OSI | Preguntas de validación oral — encapsulación, capas, TLS             | fase-1-fundamentos/redes/tcp-ip     |
 
 ### Proyectos entregados
 | Proyecto | Fase | Estado | Link |
@@ -41,8 +42,7 @@ Mentor: CIPHER — Senior Cybersecurity Mentor & Career Coach.
 | 50 ejercicios de subnetting | F1 | Sin iniciar |
 
 ### Próximo objetivo
-Pila TCP/IP: diferencias con OSI, handshake de 3 vias en profundidad, y analisis de trafico TCP real con Wireshark
-
+DNS completo: resolución recursiva e iterativa, registros A / MX / CNAME / TXT, captura de consulta DNS en Wireshark y análisis del proceso de resolución paso a paso y UDP
 
 ### Notas y brechas detectadas
 - Entrada honesta al programa sin conocimiento previo de redes ni scripting.
