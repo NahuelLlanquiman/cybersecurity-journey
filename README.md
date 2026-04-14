@@ -47,3 +47,4 @@ DNS completo: resolución recursiva e iterativa, registros A / MX / CNAME / TXT,
 ### Notas y brechas detectadas
 - Entrada honesta al programa sin conocimiento previo de redes ni scripting.
 - Prioridad absoluta: construir base técnica sólida antes de tocar herramientas de seguridad.
+- Todos los MarkDown que se hacen ,se editan y se controlan a través de Obsidian, con el fin de usarlo como segundo cerebro.
